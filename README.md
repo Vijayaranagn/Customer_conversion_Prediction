@@ -37,34 +37,52 @@ Now we follow below steps to do this:
 2. CHECKING BALANCED OR NOT
 3. DATA PREPROCESSING
 4. CLEAN THE DATA
+  
   A. First step is to check is there any missing value(data) & Duplicates data
+  
   B. Second step is to check is data in right format
+  
   C. Third step is to check is there any spelling mistakes in object datas:
+  
   D. Fourth step is there any outliers in the given data
+
 5. Exporatory Data Analysis (EDA)
 
 Then we apply machine learning methods:
 
 1. ENCODE THE DATA
+  
   A. LABEL ENCODING
+  
   B. ONE-HOT ENCODING
+  
 2. TARGET AND FEATURE SELCTION:
+
 3. SPLITTING THE DATA
+  
   A. Random Undersampling
+  
   B. Random Oversampling
+
 4. SMOTE
   A. SMOTEENN
   
 Then we apply machine learning Algorithams:
 
 1. Logistic Regression:
+
 2. Decision Tree
+
 3. KNN
+
 4. XG_BOOST
+
 5. Random Forest
 
 SOLUTION STATEMENT:
+
 MODELLING:
+
 Models are tested to see which one can better predict consumer conversion.
 
 LOGISTIC REGRESSION, the model AUROC score is 0.89
